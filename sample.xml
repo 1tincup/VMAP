@@ -1,0 +1,37 @@
+<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0">
+	<vmap:AdBreak breakType="linear" breakId="Preroll_0" timeOffset="start">
+		<vmap:AdSource allowMultipleAds="true" followRedirects="true" id="0">
+			<vmap:AdTagURI templateType="vast3">
+				<![CDATA[http://ww1605.smartadserver.com/ac?siteid=226595&pgid=929126&fmtid=36160&ab=1&tgt=&oc=1&out=vast3&ps=2&pb=0&visit=s&vcn=s&tmstp=[timestamp]]]>
+			</vmap:AdTagURI>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+	<vmap:AdBreak breakType="linear" breakId="Midroll_1" timeOffset="00:15:00.000">
+		<vmap:AdSource allowMultipleAds="true" followRedirects="true" id="1">
+			<vmap:AdTagURI templateType="vast3">
+				<![CDATA[http://ww1605.smartadserver.com/ac?siteid=226595&pgid=929126&fmtid=36160&ab=2&tgt=&oc=1&out=vast3&ps=3&pb=0&visit=s&vcn=s&tmstp=[timestamp]]]>
+			</vmap:AdTagURI>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+	<vmap:AdBreak breakType="linear" breakId="Midroll_2" timeOffset="00:28:22.032">
+		<vmap:AdSource allowMultipleAds="true" followRedirects="true" id="2">
+			<vmap:AdTagURI templateType="vast3">
+				<![CDATA[http://ww1605.smartadserver.com/ac?siteid=226595&pgid=929126&fmtid=36160&ab=2&tgt=&oc=1&out=vast3&ps=3&pb=0&visit=s&vcn=s&tmstp=[timestamp]]]>
+			</vmap:AdTagURI>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+	<vmap:AdBreak breakType="linear" breakId="Midroll_3" timeOffset="00:42:13.307">
+		<vmap:AdSource allowMultipleAds="true" followRedirects="true" id="3">
+			<vmap:AdTagURI templateType="vast3">
+				<![CDATA[http://ww1605.smartadserver.com/ac?siteid=226595&pgid=929126&fmtid=36160&ab=2&tgt=&oc=1&out=vast3&ps=3&pb=0&visit=s&vcn=s&tmstp=[timestamp]]]>
+			</vmap:AdTagURI>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+	<vmap:AdBreak breakType="linear" breakId="Postroll_4" timeOffset="end">
+		<vmap:AdSource allowMultipleAds="true" followRedirects="true" id="4">
+			<vmap:AdTagURI templateType="vast3">
+				<![CDATA[http://ww1605.smartadserver.com/ac?siteid=226595&pgid=929126&fmtid=36160&ab=3&tgt=&oc=1&out=vast3&ps=2&pb=0&visit=s&vcn=s&tmstp=[timestamp]]]>
+			</vmap:AdTagURI>
+		</vmap:AdSource>
+	</vmap:AdBreak>
+</vmap:VMAP>
